@@ -5,7 +5,7 @@ from scripts.calculate import Calculate
 class TestCalculate(TestCase):
 
     def setUp(self):
-        self.c=Caluculate(10,2)
+        self.c=Calculate(10,2)
 
     def test_add(self):
         self.assertEqual(self.c.add(),12)
